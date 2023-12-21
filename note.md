@@ -107,3 +107,68 @@ Requirements engineering process: Elicitation and analysis; Specification; Valid
 
 ![Testing phases in a plan-driven software process](image-8.png)
 
+#### Software Evolution
+
+- Software is inherently flexible and can change (like requirements due to business circumstances)
+
+![Software Evolution](image-9.png)
+
+### Coping with Change
+
+#### Software Prototyping
+
+- A prototype is an initial version of a system used to demonstrate concepts and try out design options
+- Used in:
+  - requirements engineering process: requirements elicitation and validation
+  - design processes: options and develop UI design
+  - testing process: run back-to-back test
+- Benefits:
+  - Improved system usability
+  - A closer match to users’ real needs
+  - Improved design quality
+  - Improved maintainability
+  - Reduced development effort
+
+![Process of Prototype Development](image-10.png)
+
+- May be based on rapid prototyping languages or tools
+- May involve leaving out functionality
+
+#### Incremental Delivery
+
+- The development and delivery is broken down into increments
+  - each increment delivering part of the required functionality
+  - user requirements are prioritised and the highest priority requirements are included in early increments
+
+- Two approaches:
+  - Incremental development: by developer
+  - Incremental delivery: for end-user
+
+![Incremental Delivery](image-11.png)
+
+Advantages:
+
+- System functionality is available earlier
+- Early increments act as a prototype
+- Lower risk of overall project failure
+- Highest priority system services receive most testing
+
+Problems:
+
+- May require a set of basic facilities
+- The specification is developed in conjunction with the software
+
+### Process Improvement
+
+- Software process improvement: enhancing the quality of software, reducing costs, or accelerating development processes
+- Process improvement: understanding existing processes, and changing these processes
+
+Activities:
+
+- Process measurement: measure one or more attributes of the software process or product. These measurements forms a baseline that helps you decide if process improvements have been effective
+- Process analysis: The current process is assessed, and process weaknesses and bottlenecks are identified. Process models (sometimes called process maps) that describe the process may be developed.
+- Process change: Process changes are proposed to address some of the identified process weaknesses. These are introduced and the cycle resumes to collect data about the effectiveness of the changes
+
+![Capability Maturity Model CMM](image-12.png)
+
+![Software Project Documentation](image-13.png)
