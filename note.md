@@ -172,3 +172,19 @@ Activities:
 ![Capability Maturity Model CMM](image-12.png)
 
 ![Software Project Documentation](image-13.png)
+
+# Requirement Engineering
+
+Requirement = the descriptions of the system services and constraints. It may range from a high-level abstract statement to a detailed mathematical functional specification. 
+May serve a dual function The basis for a bid for a contract - must be open to interpretation; The basis for the contract itself - must be in detail
+
+## Functional and Non-functional requirements
+
+- Functional requirements: What system should provide, how the system react to inputs and behave
+- Non-functional requirements: Constraints on services or functions as timing, development process, standards, etc. ~ usually on a system scale
+- Domain requirements: domain of operations
+
+### Functional requirements
+
+Describe functionality or system services. Maybe high-level statements of what the system should do (should describe in detail)
+Ex: *A user shall be able to search the appointments lists for all clinics*
