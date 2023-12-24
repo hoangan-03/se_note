@@ -642,3 +642,190 @@ As complex systems are difficult to manage, proper use of OOP aids in managing t
 ### UML Diagram Types
 
 Activity diagrams, use-case diagrams, sequence diagrams, class diagrams, state diagrams (show how system reacts to internal/external events)
+
+## External Perspectives
+
+### Context Models
+
+- To illustrate the operational context of a system  and the boundaries - show what lies outside the system boundaries
+- Social and organizational concerns may affect the decision on where to position system boundaries
+- Architectural models show the system and its relationship with other systems.
+
+### System Boundaries
+
+- Are established to define what is inside and what is outside the system - show relationship to other systems (that dependent on the developing system)
+
+| ![40](image-40.png) |
+|:--:|
+| Context of Mentcare System |
+
+### Process Perspective
+
+- Context models simply show the other systems in the environment, not how the system being developed is used in that environment.
+- Process models reveal how the system being developed is used in **broader business processes**.
+- UML activity diagrams may be used to define **business process models**
+
+| ![41](image-41.png) |
+|:--:|
+| Process model of Involuntary Detention |
+
+## Interaction Perspectives
+
+### Interaction Models
+
+- Modeling user interaction - identify user **requirements**
+- Modeling system-to-system interaction - highlights the **communication problems** that may arise
+- Modeling component interaction - understand if a proposed **system structure** is likely to deliver the required system performance and dependability.
+
+Use case diagrams and sequence diagrams may be used for interaction modeling
+
+### Use case Modeling
+
+Use cases were developed originally to support requirements elicitation and now incorporated into the UML
+
+- Each use case represents a discrete task that involves external interaction with a system
+- Actors in a use case may be people or other systems
+- Represented diagrammatically to provide an overview of the use case and in a more detailed textual form
+
+| ![42](image-42.png) |
+|:--:|
+| Sequence Diagram Notation |
+
+## Structural Perspective
+
+### Structural Models
+
+- Display the organization of a system in terms of the components that make up that system and their relationships
+- Structural models may be: static models - system structure; dynamic models - organization during runtime
+
+### Class Diagrams
+
+- Used when developing an object-oriented system model to show the classes in a system and the associations between these classes - An object class can be thought of as a general definition of one kind of system object - An association is a link between classes that indicates that there is some relationship between these classes
+
+| ![43](image-43.png) |
+|:--:|
+| Class Diagrams |
+
+| ![44](image-44.png) |
+|:--:|
+| Class Diagrams Notation |
+
+| ![45](image-45.png) |
+|:--:|
+| Class Diagrams Notation - Method |
+
+| ![46](image-46.png) |
+|:--:|
+| Multiplicities examples |
+
+## Behavioral Perspectives
+
+- Behavioral models are models of the dynamic behavior of a system during runtime - show what happens or what is supposed to happen when system responds to a stimulus
+- Stimuli: Data; Events
+
+### Data-driven modeling
+
+- Show the sequence of actions involved in processing input data and generating an associated output
+
+| ![47](image-47.png) |
+|:--:|
+| Data-flow Diagrams |
+
+| ![48](image-48.png) |
+|:--:|
+| Data-flow Diagrams - 1 |
+
+| ![49](image-49.png) |
+|:--:|
+| Data-flow Diagrams Notation |
+
+### Event-Driven Modeling
+
+- Real-time systems are often event-driven, with minimal data processing
+- Shows how a system responds to external and internal events - on the assumption that a system has a finite number of states and that events (stimuli)
+
+| ![50](image-50.png) |
+|:--:|
+| State Diagram - 1 |
+
+- Superstate encapsulates a number of separate states
+- looks like a single state on a high-level model & expanded to show more detail on a separate diagram
+
+| ![51](image-51.png) |
+|:--:|
+| State Diagram - Superstate |
+
+## UML Stuff
+
+| ![52](image-52.png) |
+|:--:|
+| Collaboration - Communication Diagrams |
+
+| ![53](image-53.png) |
+|:--:|
+| Sequence vs. Collaboration Diagrams |
+
+| ![54](image-54.png) |
+|:--:|
+| Activity Diagrams |
+
+| ![55](image-55.png) |
+|:--:|
+| Activity Diagrams - 1 |
+
+# Chapter 7: Architecture Design
+
+## Software Architecture
+
+- Describes how the system is organized as a set of communicating components
+
+## Architectural Design
+
+- Concerned with:  how a software system should be organized and designing the overall structure
+  - “build-a-house” metaphor: front end, back end, etc
+  - “gardening” metaphor: refactoring, maintenance, etc
+- The critical link between design and requirements engineering - identifies the main structural components in a system and the relationships between them
+- Agile: An early stage: design an overall systems architecture; Refactoring the system architecture is usually expensive
+
+| ![56](image-56.png) |
+|:--:|
+| Architecture Example |
+
+### Architectural Abstraction
+
+- In the small: Concerned with architecure of individual programs
+- In the large: Concerned wih architecture of complex enterprise systems which include ohter systems, programs, etc.
+
+### Advantages of Explicit Architecture
+
+- Stakeholder **communication**: sed as a focus of discussion by system stakeholders
+- System **analysis**: analysis of whether the system can meet its non-functional requirements is possible
+- Large-scale **reuse**: may reusable across a range of systems; product-line architectures may be developed
+
+### Architectural Representations
+
+- Mostly use: Simple, informal block diagrams showing entities and relationships - but lack semantics (**verbal** meaning)
+- Box and line diagrams: very **abstract** (not show the nature of component relationships nor the externally visible properties of the sub-systems); However, useful for **communication** with stakeholders and for project planning
+
+### Use of Architectural Models
+
+- As a way of facilitating **discussion** about the system design - high-level architectural view is useful for communication with stakeholders and project planning
+- As a way of **documenting** an architecture that has been designed - produce a **complete system model** that shows the different **components** in a system, their interfaces and their connections
+
+### Architecture Decomposition
+
+- Software systems: complexity problem <= inter-relationship
+- Goals: Maximizing cohesion - Minimizing coupling
+
+**Cohesion**: degree of communication taken place among the module’s elements
+**Coupling**: degree of communication among modules
+
+| ![57](image-57.png) |
+|:--:|
+| Architecture Decomposition |
+
+## Architectural Design Decisions
+
+| ![58](image-58.png) |
+|:--:|
+| Architectural Design Decisions |
