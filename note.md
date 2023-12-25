@@ -1983,3 +1983,101 @@ People - Process - Products
 - How the Attacker 
   - Disrupts honest user’s use of the system  (Integrity, Availability)
   - Learns information intended for Alice only (Confidentiality)
+
+- Confidentiality: Attacker does not learn Alice’s secrets
+- Integrity: Attacker does not undetectably corrupt system’s function for Alice
+- Availability: Attacker does not keep system from being useful to Alice
+
+### OWASP Top Ten list
+
+![163](image-163.png)
+
+### Cross-site Scripting (XSS) Attacks
+
+- inject client-side scripts into web pages viewed by other users
+- A hacker was able to insert JavaScript code into the Obama community blog section
+  - The JavaScript would redirect the users to the Hillary Clinton website
+- Websites from FBI.gov, CNN.com, Time.com, Ebay, Yahoo, Apple computer, Microsoft, Zdnet, Wired, and Newsbytes have all had XSS bugs
+
+![164](image-164.png)
+
+### SQL Injection Attacks
+
+- “SQL injection is a security vulnerability that occurs in the database layer of an application. Its source is the incorrect escaping of dynamically-generated string literals embedded in SQL statements. “ (Wikipedia)
+
+![165](image-165.png)
+
+![166](image-166.png)
+
+![167](image-167.png)
+
+### Insecure Direct Object Reference
+
+- “A direct object reference occurs when a developer exposes areference to an internal implementation object, such as a file,directory, database record, or key, as a URL or form parameter. Attackers can manipulate those references to access other objects without authorization.”
+- Fancy term for parameter tampering
+- Involves modifying parameters to access unauthorized materials
+- E.g. /BankAccount.jsp?acct_nmbr=123
+  - The hacker modifies the parameter to view another users account
+
+### Malicious File Execution
+
+- “Code vulnerable to remote file inclusion (RFI) allows attackers to include hostile code and data, resulting in devastating attacks, such as total server compromise. Malicious file execution attacks affect PHP, XML and any framework which accepts filenames or files fromusers.”
+- Happens when code is executed on the server from a non-trusted source
+  - All web applications are vulnerable to malicious file execution if they accept filenames or files from the user.
+- Classic example: PHP is particularly vulnerable
+- Hacker visits a website that allows uploads
+- Hacker uploads a malicious code
+- Hacker learns directory structure and sends the path as a parameter
+- PHP code is executed on the server
+- include $_REQUEST[‘filename’];
+
+- The Common Weakness Enumeration (CWE) is a category system for software weaknesses and vulnerabilities. It is sustained by a community project with the goals of understanding flaws in software and creating automated tools that can be used to identify, fix, and prevent those flaws.
+
+![168](image-168.png)
+
+## Vulnerability Assessment
+
+- Assess and secure all parts individually
+- The idea is to force an attacker to penetrate several
+defence layers
+- As a general rule, data stored in databases are considered as "untrusted"
+
+- Static analysis
+  - Automated methods to find errors or check their absence
+    - Consider all possible inputs (in summary form)
+    - Find bugs and vulnerabilities
+    - Can prove absence of bugs, in some cases
+- Dynamic analysis
+  - Run instrumented code to find problems
+    - Need to choose sample test input
+    - Can find vulnerabilities but cannot prove their absence
+
+## Penetration Testing (PenTest)
+
+- A penetration test is a method of evaluating the security of a computer system or network by simulating an attack from a malicious source, known as a Black Hat Hacker, or Cracker.
+
+### Steps
+
+- Analysis and Information Gathering
+  - To discover as much information about a target (individual or organization) as possible without actually making network contact with said target.
+  - Methods:
+    - Organization info discovery via WHOIS
+    - Google search
+    - Website browsing
+- Network Enumeration and Scanning
+  - To discover existing networks owned by a target as well as live hosts
+and services running on those hosts.
+  - Methods
+    - Scanning programs that identify live hosts, open ports, services, and other info (Nmap, autoscan)
+    - DNS Querying
+    - Route analysis (traceroute)
+- Vulnerability Testing and Exploitation
+  - To check hosts for known vulnerabilities and to see if they are exploitable, as well as to assess the potential severity of said vulnerabilities.
+  - Methods:
+    - Remote vulnerability scanning (Nessus, OpenVAS)
+    - Active exploitation testing
+    - Login checking and bruteforcing
+    - Vulnerability exploitation (Metasploit, Core Impact)
+    - 0day and exploit discovery (Fuzzing, program analysis)
+    - Post exploitation techniques to assess severity (permission levels, backdoors, rootkits, etc)
+- Reporting
