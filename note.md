@@ -829,3 +829,35 @@ Use cases were developed originally to support requirements elicitation and now 
 | ![58](image-58.png) |
 |:--:|
 | Architectural Design Decisions |
+
+### Architecture and System Characteristics
+
+- Performance: **Localize** critical operations and **minimize** communications. Use large rather than fine-grain components
+- Security: Use a **layered** architecture with critical assets in the inner layers.
+- Safety: **Localize** safety-critical features in a **small number** of sub-systems
+- Availability: Include **redundant** components and mechanisms for **fault tolerance**
+- Maintainability: Use fine-grain, replaceable components
+
+## Architectural Views
+
+What views or perspectives are useful when designing and documenting a system’s architecture? What notations should be used? 
+Each architectural model only shows one view or perspective of the system - how a system is decomposed into modules; how the run-time processes interact; system components are distributed across a network
+
+| ![59](image-59.png) |
+|:--:|
+| Architectural Views  - need to present multiple views of the software architecture|
+
+| ![60](image-60.png) |
+|:--:|
+| 4+1 View model of Software Architecture|
+
+### 4+1 View model vs UML
+
+- Logical view: Class diagram, Communication diagram, Sequence diagram
+- Process view: Activity diagram
+- Development view: Component diagram, Package diagram
+- Physical view: Deployment diagram
+- Scenarios (+1): Use-case
+
+## Architectural Patterns
+
