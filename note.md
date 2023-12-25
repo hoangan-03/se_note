@@ -32,7 +32,7 @@ In practice, most large systems are developed using a process that incorporates 
 - Plan-driven model
 - Separate and distinct phases of specification and development
 
-| ![0](image.png) |
+| ![0](image.png){width=380 height=150} |
 |:--:|
 | A phase has to be completed before moving to the next phase |
 
@@ -45,7 +45,7 @@ In practice, most large systems are developed using a process that incorporates 
 - Specification, development and validation are interleaved.
 - May be plan-driven or agile.
 
-| ![1](image-1.png) |
+| ![1](image-1.png){width=380 height=150} |
 |:--:|
 | Incremental development |
 
@@ -60,11 +60,11 @@ Problems:
 
 #### Agile Development
 
-| ![2](image-2.png) |
+| ![2](image-2.png){width=380 height=150} |
 |:--:|
 | Agile Development |
 
-| ![3](image-3.png) |
+| ![3](image-3.png){width=380 height=150} |
 |:--:|
 | Scrum |
 
@@ -77,7 +77,7 @@ Problems:
 - Reused elements may be configured to adapt their behaviour and functionality to a user’s requirements
 - Reuse is now the standard approach for building many types of business system
 
-| ![4](image-4.png) |
+| ![4](image-4.png){width=380 height=150} |
 |:--:|
 | Reuse-oriented |
 
@@ -97,11 +97,11 @@ In the waterfall model, they are organized in sequence, whereas in incremental d
 Establishing what services are required, constraints on the system’s operation and development
 Requirements engineering process: Elicitation and analysis; Specification; Validation
 
-| ![5](image-5.png) |
+| ![5](image-5.png){width=380 height=150} |
 |:--:|
 | Requirements engineering process |
 
-| ![6](image-6.png) |
+| ![6](image-6.png){width=380 height=150} |
 |:--:|
 | General model of design process |
 
@@ -117,11 +117,11 @@ Requirements engineering process: Elicitation and analysis; Specification; Valid
 - Verification and validation (V & V): to show that a system conforms to its specification and meets the requirements of the system customer
 - Involves checking and review processes and system testing (using testcases; most commonly used in V & V)
 
-| ![7](image-7.png) |
+| ![7](image-7.png){width=380 height=150} |
 |:--:|
 | Stages of Testing |
 
-| ![8](image-8.png) |
+| ![8](image-8.png){width=380 height=150} |
 |:--:|
 | Testing phases in a plan-driven software process |
 
@@ -129,7 +129,7 @@ Requirements engineering process: Elicitation and analysis; Specification; Valid
 
 - Software is inherently flexible and can change (like requirements due to business circumstances)
 
-| ![9](image-9.png) |
+| ![9](image-9.png){width=380 height=150} |
 |:--:|
 | Software Evolution |
 
@@ -149,7 +149,7 @@ Requirements engineering process: Elicitation and analysis; Specification; Valid
   - Improved maintainability
   - Reduced development effort
 
-| ![10](image-10.png) |
+| ![10](image-10.png){width=380 height=150} |
 |:--:|
 | Process of Prototype Development |
 
@@ -166,7 +166,7 @@ Requirements engineering process: Elicitation and analysis; Specification; Valid
   - Incremental development: by developer
   - Incremental delivery: for end-user
 
-| ![11](image-11.png) |
+| ![11](image-11.png){width=380 height=150} |
 |:--:|
 | Incremental Delivery |
 
@@ -193,11 +193,11 @@ Activities:
 - Process analysis: The current process is assessed, and process weaknesses and bottlenecks are identified. Process models (sometimes called process maps) that describe the process may be developed.
 - Process change: Process changes are proposed to address some of the identified process weaknesses. These are introduced and the cycle resumes to collect data about the effectiveness of the changes
 
-| ![12](image-12.png) |
+| ![12](image-12.png){width=380 height=150} |
 |:--:|
 | Capability Maturity Model CMM |
 
-| ![13](image-13.png) |
+| ![13](image-13.png){width=380 height=150} |
 |:--:|
 | Software Project Documentation |
 
@@ -254,11 +254,11 @@ May generate a number of related functional requirements and may also generate r
 - Generic activities common to all processes (elicitation, analysis, validation, management)
 - RE is an iterative activity
 
-| ![14](image-14.png) |
+| ![14](image-14.png){width=380 height=150} |
 |:--:|
 | Typical view of the process |
 
-| ![15](image-15.png) |
+| ![15](image-15.png){width=380 height=150} |
 |:--:|
 | Spiral view of the process |
 
@@ -275,7 +275,7 @@ Problems:
 - Organisational and political factors may influence the system requirements
 - The requirements change during the analysis process as new stakeholders and business environment change
 
-| ![16](image-16.png) |
+| ![16](image-16.png){width=380 height=150} |
 |:--:|
 | The requirements Elicitation and Analysis Process |
 
@@ -284,7 +284,7 @@ Problems:
 - Interviewing: Part of most RE processes, can be Closed or Open. Effective when open-minded, avoid pre-conceived ideas about the requirements and are willing to listen to stakeholders. Prompt the interviewee to get discussions going using a springboard question, a requirements proposal, or by working together on a prototype system
 - Ethnography: Observational technique used to understand operational processes and help derive support requirements for these processes. A social scientist spends a considerable time observing and analysing how people actually work; People do not have to explain or articulate their work; Social and organisational factors of importance may be observed
 
-| ![17](image-17.png) |
+| ![17](image-17.png){width=380 height=150} |
 |:--:|
 | Requirement Elicitation Techniques |
 
@@ -305,7 +305,7 @@ Problems:
 
 - every requirement stated therein has only one interpretation (IEEE Std)
 
-| ![18](image-18.png) |
+| ![18](image-18.png){width=380 height=150} |
 |:--:|
 | Ambiguity Example |
 
@@ -313,7 +313,7 @@ Problems:
 
 - A software requirement is internally consistent if, and only if, no subset of individual requirements described in is conflict.
 
-| ![19](image-19.png) |
+| ![19](image-19.png){width=380 height=150} |
 |:--:|
 | Consistent Example |
 
@@ -331,21 +331,21 @@ Consistencyt is a challenge since we need a complete overview of all requirement
   - Example: *ACC system shall maintain the preset speed of an ego-
 vehicle if there is no forward vehicle* - who sets the preset speed and what is the value of the speed
 
-| ![20](image-20.png) |
+| ![20](image-20.png){width=380 height=150} |
 |:--:|
 | E, C, D need to be mapped to a requirement item |
 
 - Opacity: requirement items for which rational and dependencies are invisible
   - Example: *Each time the freight train doors are closed, the passengers must all seated* - there is no visible relationship between freight trains and passengers
 
-| ![21](image-21.png) |
+| ![21](image-21.png){width=380 height=150} |
 |:--:|
 | Multiple unrelated concept mapping. A is not related to B |
 
 - Noise: Requirement items that yield no information on problem world features.
   - Example: *The train system shall guarantee safe transportation of all passengers on their residence* - a residence is an unknown concept within the train domain; the train can only transport passengers to the train station and not to their residence
 
-| ![22](image-22.png) |
+| ![22](image-22.png){width=380 height=150} |
 |:--:|
 | X refers to a concept undefined in the domain |
 
@@ -367,7 +367,7 @@ Notes: User requirements have to be understandable by end-users/customers who do
 - For natural language: Used for writing requirements because it is expressive, intuitive and universal - as the requirements can be understood by users and customers. The problems: Lack of clarity/precision, requirement confusion (mixed up functional and non-functional), requirement amalgamation (multiple requirements expressed in 1 statement)
 - Structured natural language: Writing on a standard  form or template - with name, I/O, info for computation, action, pre/post-condition, side effects
 
-| ![23](image-23.png) |
+| ![23](image-23.png){width=380 height=150} |
 |:--:|
 | Structured Natural Language Example |
 
@@ -377,15 +377,15 @@ Notes: User requirements have to be understandable by end-users/customers who do
 
 ### Use Case Diagram
 
-| ![24](image-24.png) |
+| ![24](image-24.png){width=380 height=150} |
 |:--:|
 | Use Case Diagram |
 
-| ![25](image-25.png) |
+| ![25](image-25.png){width=380 height=150} |
 |:--:|
 | Association Types |
 
-| ![26](image-26.png) |
+| ![26](image-26.png){width=380 height=150} |
 |:--:|
 | UC Diagram with Association types |
 
@@ -405,22 +405,22 @@ Notes: User requirements have to be understandable by end-users/customers who do
 - Model complex workflows in operations on objects
 - Model in detail complex activities in a high level activity Diagram
 
-| ![27](image-27.png) |
+| ![27](image-27.png){width=380 height=150} |
 |:--:|
 | Activity Diagram Notation |
 
 
-| ![28](image-28.png) |
+| ![28](image-28.png){width=380 height=150} |
 |:--:|
 | Activity Diagram Swim-lane |
 
 
-| ![30](image-30.png) |
+| ![30](image-30.png){width=380 height=150} |
 |:--:|
 | Activity Diagram Swim-lane - 1 |
 
 
-| ![29](image-29.png) |
+| ![29](image-29.png){width=380 height=150} |
 |:--:|
 | Activity Diagram Standard |
 
@@ -429,7 +429,7 @@ Notes: User requirements have to be understandable by end-users/customers who do
 - interaction diagram that details how operations are carried out -- what messages are sent and when
 - Sequence diagrams are organized according to **time**
 
-| ![31](image-31.png) |
+| ![31](image-31.png){width=380 height=150} |
 |:--:|
 | Sequence Diagram |
 
@@ -449,7 +449,7 @@ Notes: User requirements have to be understandable by end-users/customers who do
 - Stored in a Jira issue
 - Are designed to strongly shift the focus from writing about features to discussing with them (more important than text).
 
-| ![32](image-32.png) |
+| ![32](image-32.png){width=380 height=150} |
 |:--:|
 | ISO/IEC 25010 Product Quality Model |
 
@@ -490,12 +490,12 @@ Requirements management decisions: Requirements identification, change managemen
 
 #### Changing Management
 
-| ![33](image-33.png) |
+| ![33](image-33.png){width=380 height=150} |
 |:--:|
 | Decide if a requirements change should be accepted |
 
 
-| ![34](image-34.png) |
+| ![34](image-34.png){width=380 height=150} |
 |:--:|
 | Response to change - Agile approach |
 
@@ -522,7 +522,7 @@ OOP Languages:
 
 - a collection of data (fields/ variables) and methods that operate on that data (define the contents/capabilities of the objects of the class - can be an object factory)
 
-| ![35](image-35.png) |
+| ![35](image-35.png){width=380 height=150} |
 |:--:|
 | Class in Java |
 
@@ -543,15 +543,15 @@ OOP Languages:
 - Every class, except **Object**, has a superclass
 - When you define a class, you specify its superclass (if none, **Object** is assumed)
 
-| ![36](image-36.png) |
+| ![36](image-36.png){width=380 height=150} |
 |:--:|
 | Class Hierarchy |
 
-| ![37](image-37.png) |
+| ![37](image-37.png){width=380 height=150} |
 |:--:|
 | Class Hierarchy - 1|
 
-| ![38](image-38.png) |
+| ![38](image-38.png){width=380 height=150} |
 |:--:|
 | Example of inheritance|
 
@@ -561,7 +561,7 @@ OOP Languages:
 - When creating new data types (classes) the details of the actual data and the way operations work is hidden from the other programmers who will use those new data types (So they don't have to worry about them or can be change without any ill effects - loose coupling)
 - Make easier to use
 
-| ![39](image-39.png) |
+| ![39](image-39.png){width=380 height=150} |
 |:--:|
 | Example of Encapsulation |
 
@@ -655,7 +655,7 @@ Activity diagrams, use-case diagrams, sequence diagrams, class diagrams, state d
 
 - Are established to define what is inside and what is outside the system - show relationship to other systems (that dependent on the developing system)
 
-| ![40](image-40.png) |
+| ![40](image-40.png){width=380 height=150} |
 |:--:|
 | Context of Mentcare System |
 
@@ -665,7 +665,7 @@ Activity diagrams, use-case diagrams, sequence diagrams, class diagrams, state d
 - Process models reveal how the system being developed is used in **broader business processes**.
 - UML activity diagrams may be used to define **business process models**
 
-| ![41](image-41.png) |
+| ![41](image-41.png){width=380 height=150} |
 |:--:|
 | Process model of Involuntary Detention |
 
@@ -687,7 +687,7 @@ Use cases were developed originally to support requirements elicitation and now 
 - Actors in a use case may be people or other systems
 - Represented diagrammatically to provide an overview of the use case and in a more detailed textual form
 
-| ![42](image-42.png) |
+| ![42](image-42.png){width=380 height=150} |
 |:--:|
 | Sequence Diagram Notation |
 
@@ -702,19 +702,19 @@ Use cases were developed originally to support requirements elicitation and now 
 
 - Used when developing an object-oriented system model to show the classes in a system and the associations between these classes - An object class can be thought of as a general definition of one kind of system object - An association is a link between classes that indicates that there is some relationship between these classes
 
-| ![43](image-43.png) |
+| ![43](image-43.png){width=380 height=150} |
 |:--:|
 | Class Diagrams |
 
-| ![44](image-44.png) |
+| ![44](image-44.png){width=380 height=150} |
 |:--:|
 | Class Diagrams Notation |
 
-| ![45](image-45.png) |
+| ![45](image-45.png){width=380 height=150} |
 |:--:|
 | Class Diagrams Notation - Method |
 
-| ![46](image-46.png) |
+| ![46](image-46.png){width=380 height=150} |
 |:--:|
 | Multiplicities examples |
 
@@ -727,15 +727,15 @@ Use cases were developed originally to support requirements elicitation and now 
 
 - Show the sequence of actions involved in processing input data and generating an associated output
 
-| ![47](image-47.png) |
+| ![47](image-47.png){width=380 height=150} |
 |:--:|
 | Data-flow Diagrams |
 
-| ![48](image-48.png) |
+| ![48](image-48.png){width=380 height=150} |
 |:--:|
 | Data-flow Diagrams - 1 |
 
-| ![49](image-49.png) |
+| ![49](image-49.png){width=380 height=150} |
 |:--:|
 | Data-flow Diagrams Notation |
 
@@ -744,32 +744,32 @@ Use cases were developed originally to support requirements elicitation and now 
 - Real-time systems are often event-driven, with minimal data processing
 - Shows how a system responds to external and internal events - on the assumption that a system has a finite number of states and that events (stimuli)
 
-| ![50](image-50.png) |
+| ![50](image-50.png){width=380 height=150} |
 |:--:|
 | State Diagram - 1 |
 
 - Superstate encapsulates a number of separate states
 - looks like a single state on a high-level model & expanded to show more detail on a separate diagram
 
-| ![51](image-51.png) |
+| ![51](image-51.png){width=380 height=150} |
 |:--:|
 | State Diagram - Superstate |
 
 ## UML Stuff
 
-| ![52](image-52.png) |
+| ![52](image-52.png){width=380 height=150} |
 |:--:|
 | Collaboration - Communication Diagrams |
 
-| ![53](image-53.png) |
+| ![53](image-53.png){width=380 height=150} |
 |:--:|
 | Sequence vs. Collaboration Diagrams |
 
-| ![54](image-54.png) |
+| ![54](image-54.png){width=380 height=150} |
 |:--:|
 | Activity Diagrams |
 
-| ![55](image-55.png) |
+| ![55](image-55.png){width=380 height=150} |
 |:--:|
 | Activity Diagrams - 1 |
 
@@ -787,7 +787,7 @@ Use cases were developed originally to support requirements elicitation and now 
 - The critical link between design and requirements engineering - identifies the main structural components in a system and the relationships between them
 - Agile: An early stage: design an overall systems architecture; Refactoring the system architecture is usually expensive
 
-| ![56](image-56.png) |
+| ![56](image-56.png){width=380 height=150} |
 |:--:|
 | Architecture Example |
 
@@ -820,13 +820,13 @@ Use cases were developed originally to support requirements elicitation and now 
 **Cohesion**: degree of communication taken place among the module’s elements
 **Coupling**: degree of communication among modules
 
-| ![57](image-57.png) |
+| ![57](image-57.png){width=380 height=150} |
 |:--:|
 | Architecture Decomposition |
 
 ## Architectural Design Decisions
 
-| ![58](image-58.png) |
+| ![58](image-58.png){width=380 height=150} |
 |:--:|
 | Architectural Design Decisions |
 
@@ -843,11 +843,11 @@ Use cases were developed originally to support requirements elicitation and now 
 What views or perspectives are useful when designing and documenting a system’s architecture? What notations should be used? 
 Each architectural model only shows one view or perspective of the system - how a system is decomposed into modules; how the run-time processes interact; system components are distributed across a network
 
-| ![59](image-59.png) |
+| ![59](image-59.png){width=380 height=150} |
 |:--:|
 | Architectural Views  - need to present multiple views of the software architecture |
 
-| ![60](image-60.png) |
+| ![60](image-60.png){width=380 height=150} |
 |:--:|
 | 4+1 View model of Software Architecture |
 
@@ -873,7 +873,7 @@ Each architectural model only shows one view or perspective of the system - how 
 | Advantages | Allows the data to **change** independently of its representation and vice versa. Supports presentation of the same data in different ways with changes made in one representation shown in all of them. |
 | Disadvantages | Can involve additional code and code **complexity** when the data model and interactions are simple. |
 
-| ![61](image-61.png) |
+| ![61](image-61.png){width=380 height=150} |
 |:--:|
 | Conceptual View of the MVC and Web-based MVC |
 
@@ -886,7 +886,7 @@ Each architectural model only shows one view or perspective of the system - how 
 | Advantages | Allows **replacement** of entire layers so long as the interface is maintained. Redundant facilities (e.g., authentication) can be provided in each layer to increase the **dependability** of the system. |
 | Disadvantages | In practice, providing a **clean separation** between layers is often difficult and a high-level layer may have to **interact** directly with lower-level layers rather than through the layer immediately below it. **Performance** can be a problem because of multiple levels of interpretation of a service request as it is processed at each layer. |
 
-| ![62](image-62.png) |
+| ![62](image-62.png){width=380 height=150} |
 |:--:|
 | A Generic layered Architecture |
 
@@ -902,7 +902,7 @@ Each architectural model only shows one view or perspective of the system - how 
 | Advantages | Components can be **independent**—they do not need to know of the existence of other components. Changes made by one component can be **propagated** to all components. All data can be managed consistently (e.g., backups done at the same time) as it is all in one place. |
 | Disadvantages | The repository is a single point of **failure** so problems in the repository affect the whole system. May be **inefficiencies** in organizing all communication through the repository. **Distributing** the repository across several computers may be difficult. |
 
-| ![63](image-63.png) |
+| ![63](image-63.png){width=380 height=150} |
 |:--:|
 | A Repository Architecture for an IDE |
 
@@ -915,7 +915,7 @@ Each architectural model only shows one view or perspective of the system - how 
 | Advantages | The principal advantage of this model is that servers can be **distributed** across a **network**. General functionality (e.g., a printing service) can be available to all clients and does not need to be implemented by all services. |
 | Disadvantages | Each service is a single point of failure so susceptible to denial of service attacks or server failure. Performance may be **unpredictable** because it depends on the network as well as the system. May be management problems if servers are owned by different organizations. |
 
-| ![64](image-64.png) |
+| ![64](image-64.png){width=380 height=150} |
 |:--:|
 | A client-server architecture for a film library |
 
@@ -928,13 +928,13 @@ Each architectural model only shows one view or perspective of the system - how 
 | Advantages | **Easy** to understand and supports transformation reuse. **Workflow style** matches the structure of many business processes. Evolution by adding transformations is straightforward. Can be implemented as either a sequential or concurrent system. |
 | Disadvantages | The **format** for data transfer has to be agreed upon between communicating transformations. Each transformation must parse its input and unparse its output to the agreed form. This increases system **overhead** and may mean that it is impossible to reuse functional transformations that use incompatible data structures. |
 
-| ![65](image-65.png) |
+| ![65](image-65.png){width=380 height=150} |
 |:--:|
 | Example of Pipe and Filter Architecture for processing invoice |
 
 ### Monolithic - Microservice Architecture
 
-![66](image-66.png)
+![66](image-66.png){width=380 height=150}
 
 | Monolithic architecture | Microservices architecture |
 |--------------|-----------|
@@ -965,25 +965,25 @@ As a **starting point** for architectural design; design checklist; way of **org
 
 #### Transaction Processing Systems
 
-![67](image-67.png)
+![67](image-67.png){width=380 height=150}
 
 - Process user requests for information (**query**) from a database or requests to **update** the database
 - From a user perspective a transaction is: Any coherent sequence of operations that satisfies a **goal** (find the times of flights from London to Paris)
 - Users make **asynchronous** requests for service which are then processed by a transaction manager
 
-| ![68](image-68.png) |
+| ![68](image-68.png){width=380 height=150} |
 |:--:|
 | Software Architecture of an ATM system |
 
 #### Information Systems Architecture
 
-![69](image-69.png)
+![69](image-69.png){width=380 height=150}
 
 - Information systems have a generic architecture that can be organized as a **layered** architecture
 - These are transaction-based systems as interaction with these systems generally involves **database transactions**
 - Layers include: UI, User communication, Information retrieval, System database
 
-| ![70](image-70.png) |
+| ![70](image-70.png){width=380 height=150} |
 |:--:|
 | The architecture of the Mentcare System |
 
@@ -1001,7 +1001,7 @@ As a **starting point** for architectural design; design checklist; way of **org
 - May include an **interpreter** to act on the instructions in the language that is being processed
 - Used in situations where the easiest way to solve a problem is to **describe** an algorithm or describe the system data - Meta-case tools process tool descriptions, method rules, etc and generate tools.
 
-| ![71](image-71.png) |
+| ![71](image-71.png){width=380 height=150} |
 |:--:|
 | The architecture of A Language Processing System |
 
@@ -1016,13 +1016,13 @@ Components:
 - A semantic analyzer: uses information from the syntax tree and the symbol table to check the semantic correctness of the input language text
 - A code generator: ‘walks’ the syntax tree and generates abstract machine code
 
-![72](image-72.png)
+![72](image-72.png){width=380 height=150}
 
 # Chapter 8: Software Implementation
 
 ## Implementation Meaning
 
-![73](image-73.png)
+![73](image-73.png){width=380 height=150}
 
 ### Golden Rule
 
@@ -1033,7 +1033,7 @@ Components:
 
 ### Code quality
 
-![74](image-74.png)
+![74](image-74.png){width=380 height=150}
 
 ### Implement Code
 
@@ -1087,7 +1087,7 @@ Make all members as local as possible, as invisible as possible (attributes **pr
 - pre- and post-**conditions**
 - special documentation on threaded and **synchronized** methods
 
-![75](image-75.png)
+![75](image-75.png){width=380 height=150}
 
 #### Documenting Attributes
 
@@ -1098,7 +1098,7 @@ Make all members as local as possible, as invisible as possible (attributes **pr
 
 - Before designating a final variable, be sure that it is, indeed, final.  You’re going to want to change "final" quantities in most cases.  Consider using method instead.
 
-![76](image-76.png)
+![76](image-76.png){width=380 height=150}
 
 #### Initializing Attributes
 
@@ -1121,23 +1121,23 @@ Make all members as local as possible, as invisible as possible (attributes **pr
 
 #### Bloaters
 
-![77](image-77.png)
+![77](image-77.png){width=380 height=150}
 
 #### Object-orientation Abusers
 
-![78](image-78.png)
+![78](image-78.png){width=380 height=150}
 
 #### Change preventers
 
-![79](image-79.png)
+![79](image-79.png){width=380 height=150}
 
 #### Dispensables
 
-![80](image-80.png)
+![80](image-80.png){width=380 height=150}
 
 #### Couplers
 
-![81](image-81.png)
+![81](image-81.png){width=380 height=150}
 
 ### Code Refactoring Steps
 
@@ -1149,11 +1149,11 @@ Make all members as local as possible, as invisible as possible (attributes **pr
 
 - You have methods with identical results on subclasses
 
-![82](image-82.png)
+![82](image-82.png){width=380 height=150}
 
 - You want to replace an algorithm with one that is clearer
 
-![83](image-83.png)
+![83](image-83.png){width=380 height=150}
 
 #### Reduce size - shorten method/class
 
@@ -1161,11 +1161,11 @@ Make all members as local as possible, as invisible as possible (attributes **pr
 - Large class (extract class, subclass, interface)
 - If you have to spend effort looking at a fragment of code and figure out what it is doing, then you should extract it into a function/method and name it after “what.”
 
-![84](image-84.png)
+![84](image-84.png){width=380 height=150}
 
 - Long parameter list (introduce parameter object)
 
-![85](image-85.png)
+![85](image-85.png){width=380 height=150}
 
 #### Divergent Change
 
@@ -1179,19 +1179,19 @@ Make all members as local as possible, as invisible as possible (attributes **pr
 
 - Feature envy: A function in one module spends more time communicating with functions or data inside another module than it does within its own module. Move function to give it a dream home
 
-![86](image-86.png)
+![86](image-86.png){width=380 height=150}
 
 - Data clumps: Bunches of data often hang around together, Consolidate the data together, e.g., Introduce Parameter Object or Preserve Whole Object
 
-![87](image-87.png)
+![87](image-87.png){width=380 height=150}
 
 #### Primitive Obsession
 
 - Primitive fields are **basic built-in building blocks** of a language, e.g., int, string, or constants
 - Primitive Obsession is when the code **relies too much on primitives** and when uses primitive types to represent an object in a domain
 
-![88](image-88.png)
-![89](image-89.png)
+![88](image-88.png){width=380 height=150}
+![89](image-89.png){width=380 height=150}
 
 ## Inspection
 
@@ -1208,15 +1208,15 @@ Why need inspection
 
 ### Inspection Finds Types of Defects different from Testing
 
-![90](image-90.png)
+![90](image-90.png){width=380 height=150}
 
 ### Inspection reduces Defect Rates
 
-![91](image-91.png)
+![91](image-91.png){width=380 height=150}
 
 ### Testing vs. Inspection
 
-![92](image-92.png)
+![92](image-92.png){width=380 height=150}
 
 #### Code Review at Google
 
@@ -1302,7 +1302,7 @@ MB11. Is the code thoroughly commented?
 
 #### Software Quality Model
 
-![93](image-93.png)
+![93](image-93.png){width=380 height=150}
 
 ## Software Testing
 
@@ -1333,11 +1333,11 @@ testing.
 
 #### An Input-Output Model of Program Testing
 
-![94](image-94.png)
+![94](image-94.png){width=380 height=150}
 
 #### A model of the Software Testing Process
 
-![95](image-95.png)
+![95](image-95.png){width=380 height=150}
 
 ### Stage of Testing
 
@@ -1366,19 +1366,19 @@ isolation.
 
 ##### Unit Testing: black/white-box test
 
-![96](image-96.png)
+![96](image-96.png){width=380 height=150}
 
-![97](image-97.png)
+![97](image-97.png){width=380 height=150}
 
-![98](image-98.png)
+![98](image-98.png){width=380 height=150}
 
 ##### Equivalence Partitioning & Boundary Value Analysis 
 
-![99](image-99.png)
+![99](image-99.png){width=380 height=150}
 
 ##### White box testing
 
-![100](image-100.png)
+![100](image-100.png){width=380 height=150}
 
 ##### Regression Testing
 
@@ -1393,7 +1393,7 @@ isolation.
 - Whenever possible, unit testing should be automated
 - Use of a test automation framework (such as JUnit)
 
-![101](image-101.png)
+![101](image-101.png){width=380 height=150}
 
 #### System Testing
 
@@ -1403,75 +1403,75 @@ isolation.
 
 ##### Functionality Tests
 
-![102](image-102.png)
+![102](image-102.png){width=380 height=150}
 
 ##### GUI Testing
 
-![103](image-103.png)
+![103](image-103.png){width=380 height=150}
 
 ##### Interoperability Tests
 
-![104](image-104.png)
+![104](image-104.png){width=380 height=150}
 
 ##### Robustness Tests
 
-![105](image-105.png)
+![105](image-105.png){width=380 height=150}
 
 ##### Performance Tests
 
-![106](image-106.png)
+![106](image-106.png){width=380 height=150}
 
 ##### Scalability Tests
 
-![107](image-107.png)
+![107](image-107.png){width=380 height=150}
 
 ##### Stress Tests
 
-![108](image-108.png)
+![108](image-108.png){width=380 height=150}
 
 ##### Load and Stability Tests
 
-![109](image-109.png)
+![109](image-109.png){width=380 height=150}
 
-![110](image-110.png)
+![110](image-110.png){width=380 height=150}
 
 ##### Security Testing
 
-![111](image-111.png)
+![111](image-111.png){width=380 height=150}
 
-![112](image-112.png)
+![112](image-112.png){width=380 height=150}
 
-![113](image-113.png)
+![113](image-113.png){width=380 height=150}
 
-![114](image-114.png)
+![114](image-114.png){width=380 height=150}
 
-![115](image-115.png)
+![115](image-115.png){width=380 height=150}
 
 ##### Regulatory Tests
 
-![116](image-116.png)
+![116](image-116.png){width=380 height=150}
 
 ##### Safety Assurance
 
-![117](image-117.png)
+![117](image-117.png){width=380 height=150}
 
 ##### Regression Tests
 
-![118](image-118.png)
+![118](image-118.png){width=380 height=150}
 
-![119](image-119.png)
+![119](image-119.png){width=380 height=150}
 
-![120](image-120.png)
+![120](image-120.png){width=380 height=150}
 
 ##### Acceptance Testing
 
-![121](image-121.png)
+![121](image-121.png){width=380 height=150}
 
 ## Test Planning
 
 ### Use-case Testing - Test case
 
-![122](image-122.png)
+![122](image-122.png){width=380 height=150}
 
 ### Use-case Testing
 
@@ -1499,19 +1499,19 @@ test object and the entire system
 - A simple version of ATM machine
 - Insert your card, type PIN code and withdraw cash from the machine
 
-![123](image-123.png)
+![123](image-123.png){width=380 height=150}
 
 - List of designed screens
 
-![124](image-124.png)
+![124](image-124.png){width=380 height=150}
 
 - State diagram from the Idle state to the Closed ATM session
 
-![125](image-125.png)
+![125](image-125.png){width=380 height=150}
 
 ##### Test plan - Example
 
-![126](image-126.png)
+![126](image-126.png){width=380 height=150}
 
 ### User Acceptance Test (UAT)
 
@@ -1523,7 +1523,7 @@ test object and the entire system
 
 #### Stages in the Acceptance Testing Process
 
-![127](image-127.png)
+![127](image-127.png){width=380 height=150}
 
 - Define acceptance criteria
 - Plan acceptance testing
@@ -1554,13 +1554,13 @@ Rapid development and delivery is now often the most important requirement for s
 
 ### Plan-driven and Agile Development
 
-![128](image-128.png)
+![128](image-128.png){width=380 height=150}
 
 ## Agile Methods
 
 ### The Agile Manifesto
 
-![129](image-129.png)
+![129](image-129.png){width=380 height=150}
 
 #### Value 1: Individuals and Interactions over processes and tools
 
@@ -1612,15 +1612,15 @@ about their needs, some tasks will become unnecessary.
 
 ### Used for
 
-![130](image-130.png)
+![130](image-130.png){width=380 height=150}
 
 ### How Scrum works
 
-![131](image-131.png)
+![131](image-131.png){width=380 height=150}
 
 ### Scrum Framework
 
-![132](image-132.png)
+![132](image-132.png){width=380 height=150}
 
 ### Scrum Role
 
@@ -1663,7 +1663,7 @@ about their needs, some tasks will become unnecessary.
 - Estimate sprint backlog in hours. Tasks is estimated (1-16 hours)
 - Collaboratively, not done alone by the ScrumMaster
 
-![133](image-133.png)
+![133](image-133.png){width=380 height=150}
 
 ##### Daily Scrum - Bi/Weekly Scrum
 
@@ -1697,7 +1697,7 @@ about their needs, some tasks will become unnecessary.
   - Stop doing
   - Continue doing
 
-![134](image-134.png)
+![134](image-134.png){width=380 height=150}
 
 #### Daily scrum meeting
 
@@ -1709,7 +1709,7 @@ about their needs, some tasks will become unnecessary.
 
 #### Product Backlog vs. Sprint Backlog
 
-![135](image-135.png)
+![135](image-135.png){width=380 height=150}
 
 #### User stories
 
@@ -1721,7 +1721,7 @@ features of a software system
 
 ##### User Stories in Sprint Backlog vs. Product Backlog
 
-![136](image-136.png)
+![136](image-136.png){width=380 height=150}
 
 ### Effort Estimation
 
@@ -1748,7 +1748,7 @@ their scores
 
 #### Burndown Chart
 
-![137](image-137.png)
+![137](image-137.png){width=380 height=150}
 
 ### Scrum Benefits
 
@@ -1768,7 +1768,7 @@ development
 - All tests must be run for every build and the build is only accepted if tests run 
 successfully.
 
-![138](image-138.png)
+![138](image-138.png){width=380 height=150}
 
 # Chapter 11: Continuous Integration and Delivery (CI/CD)
 
@@ -1785,7 +1785,7 @@ successfully.
   - Facebook: monolithic, 8 GB (repo 54 GB including history, 2014),[6] hundreds of thousands of files (2014)
   - Linux kernel: distributed, over 15 million lines of code (as of 2013 and kernel version 3.10)
 
-![139](image-139.png)
+![139](image-139.png){width=380 height=150}
 
 - How do we handle increasing code-base sizes?
 - How do we handle an increasing number of 
@@ -1812,24 +1812,24 @@ class 456.java
 
 Mainline integration:Developers integrate their work by pulling from mainline, merging, and - if healthy - pushing back into mainline
 
-![140](image-140.png)
+![140](image-140.png){width=380 height=150}
 
 Mainline integration:Developers integrate their work by pulling from mainline, merging, and - if healthy - pushing back into mainline
 
-![141](image-141.png)
+![141](image-141.png){width=380 height=150}
 
 ### Integration Frequency
 
 - Elite development teams integrate notably more often than low performers
 - Low-Frequency Integration
 
-![142](image-142.png)
+![142](image-142.png){width=380 height=150}
 
 - Elite development teams integrate notably more often than low 
 performers
 - High-Frequency Integration
 
-![143](image-143.png)
+![143](image-143.png){width=380 height=150}
 
 ### Continous Integration
 
@@ -1842,15 +1842,15 @@ performers
 
 #### Why is Continous Integration
 
-![144](image-144.png)
+![144](image-144.png){width=380 height=150}
 
 #### how is Continous Integration
 
-![145](image-145.png)
+![145](image-145.png){width=380 height=150}
 
 #### Continous Integration Model
 
-![146](image-146.png)
+![146](image-146.png){width=380 height=150}
 
 - Version control software
 - Dependency management
@@ -1871,13 +1871,13 @@ Darcs, Gerrit, Monotone, P4, SVN ...
 
 #### Setting up a Continous Integration (CI) Pipeline
 
-![147](image-147.png)
+![147](image-147.png){width=380 height=150}
 
-![148](image-148.png)
+![148](image-148.png){width=380 height=150}
 
-![149](image-149.png)
+![149](image-149.png){width=380 height=150}
 
-![150](image-150.png)
+![150](image-150.png){width=380 height=150}
 
 ## Automated Testing -
 
@@ -1892,13 +1892,13 @@ Darcs, Gerrit, Monotone, P4, SVN ...
 - Re-running functional and non-functional tests to ensure that previously developed and tested software still performs after a change
 - Three types
 
-![151](image-151.png)
+![151](image-151.png){width=380 height=150}
 
-![152](image-152.png)
+![152](image-152.png){width=380 height=150}
 
 ### Build step
 
-![153](image-153.png)
+![153](image-153.png){width=380 height=150}
 
 ### Docker
 
@@ -1907,15 +1907,15 @@ Darcs, Gerrit, Monotone, P4, SVN ...
 - significantly reduce the delay between writing code and running it in production
 - container
 
-![154](image-154.png)
+![154](image-154.png){width=380 height=150}
 
 #### Deploy Step
 
-![155](image-155.png)
+![155](image-155.png){width=380 height=150}
 
 ### Continuous Delivery
 
-![156](image-156.png)
+![156](image-156.png){width=380 height=150}
 
 - Teams produce software in short cycles, ensuring that the software can be reliably released at any time and, when releasing the software, without doing so manually.
 - Continuous delivery is an extension of continuous integration since it automatically deploys all code changes to a testing and/or production environment after the build stage.
@@ -1931,9 +1931,9 @@ Darcs, Gerrit, Monotone, P4, SVN ...
 
 ## DevOps
 
-![157](image-157.png)
+![157](image-157.png){width=380 height=150}
 
-![158](image-158.png)
+![158](image-158.png){width=380 height=150}
 
 - a set of practices that combines software development (Dev) and IT operations (Ops)
 - a set of practices that combines software development (Dev) and IT operations (Ops)
@@ -1948,7 +1948,7 @@ Darcs, Gerrit, Monotone, P4, SVN ...
 - Expose real-time metrics from dev enabling ops to anticipate production needs and provide early input
 - Cross-functional teams collaborate to deliver whole working systems including all infrastructure, software code, and configurations
 
-![159](image-159.png)
+![159](image-159.png){width=380 height=150}
 
 ### DevOps: The Three stage Conversation
 
@@ -1956,11 +1956,11 @@ People - Process - Products
 
 ### List of DevOps Practices
 
-![160](image-160.png)
+![160](image-160.png){width=380 height=150}
 
-![161](image-161.png)
+![161](image-161.png){width=380 height=150}
 
-![162](image-162.png)
+![162](image-162.png){width=380 height=150}
 
 # Chapter 12: Advanced Topics
 
